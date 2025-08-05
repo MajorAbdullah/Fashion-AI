@@ -1,0 +1,156 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+Fashion-AI.git/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# 🔐 SECURITY: Environment Variables & API Keys
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# 🔑 API Keys & Secrets (NEVER COMMIT THESE!)
+**/api_keys.dart
+**/secrets.dart
+**/config/keys.dart
+google-services.json.backup
+GoogleService-Info.plist.backup
+
+# 🔥 Firebase Configuration (if sensitive)
+# Uncomment if your firebase config contains sensitive data
+# lib/firebase_options.dart
+# android/app/google-services.json
+# ios/Runner/GoogleService-Info.plist
+
+# 📱 Platform-specific sensitive files
+android/key.properties
+android/app/release-key.keystore
+android/app/upload-keystore.jks
+ios/Runner.xcworkspace/xcshareddata/swiftpm/
+ios/ExportOptions.plist
+
+# 🧪 Testing & Development
+coverage/
+test_coverage/
+integration_test/reports/
+screenshots/
+
+# 📊 Analytics & Crash Reports
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# 🗂️ Temporary Files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# 📦 Package Managers
+node_modules/
+yarn.lock
+package-lock.json
+
+# 🎨 Design Assets (if large)
+# assets/raw/
+# assets/design/
+
+# 📋 Documentation (if auto-generated)
+doc/api/
+
+# 🔧 IDE & Editor Files
+.vscode/launch.json
+.vscode/settings.json
+*.sublime-*
+*~
+
+# 🖥️ OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 📱 Mobile Development
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+android/local.properties
+android/app/src/main/res/values/secrets.xml
+
+# 🌐 Web Development
+web/index.html.backup
+
+# 🔐 SSL Certificates
+*.pem
+*.crt
+*.key
+*.p12
+*.pfx
+
+# 📧 Email Templates (if containing sensitive info)
+# lib/templates/email/
+
+# 🗄️ Database Exports
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+
+# 📝 Personal Notes
+TODO.md
+NOTES.md
+DEV_NOTES.md
+
+# 🎯 Build Outputs (additional)
+**/android/app/outputs/
+**/build/ios/
+**/build/macos/
+**/build/windows/
+**/build/linux/
+
+# 🔧 Tool-specific
+.gradle/
+.metadata
+pubspec.lock.backup
+analysis_options.yaml.backup

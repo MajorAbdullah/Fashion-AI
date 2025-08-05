@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "904801949970",
+    "firebase_url": "https://fyp-fashion-default-rtdb.firebaseio.com",
+    "project_id": "fyp-fashion",
+    "storage_bucket": "fyp-fashion.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904801949970:android:2ad670a2dd61d1183abbcb",
+        "android_client_info": {
+          "package_name": "com.example.thefashionai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904801949970-5ako903u6l960764srq9pk6kbut8346e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdYGaZVTaRLng4QithmUMeQCOzJdlsdOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904801949970-5ako903u6l960764srq9pk6kbut8346e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

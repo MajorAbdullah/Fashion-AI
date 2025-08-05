@@ -1,0 +1,51 @@
+# Major Firebase CLI Commands
+
+1. firebase login
+   - Authenticate with your Google account for Firebase CLI access.
+
+2. firebase login:list
+   - List all authenticated Firebase accounts in your terminal.
+
+3. firebase logout
+   - Log out from the Firebase CLI.
+
+4. firebase projects:list
+   - List all Firebase projects associated with your account.
+
+5. firebase use --add
+   - Add a Firebase project to your current directory and set it as active.
+
+6. firebase use <project_id>
+   - Switch the active project for the current directory.
+
+7. firebase init
+   - Initialize Firebase services (Firestore, Functions, Hosting, etc.) in your project.
+
+8. firebase deploy
+   - Deploy your Firebase project (Hosting, Functions, Firestore rules, etc.) to the cloud.
+
+9. firebase serve
+   - Locally emulate Firebase Hosting and Cloud Functions.
+
+10. firebase functions:log
+    - View logs for Cloud Functions.
+
+11. firebase firestore:indexes
+    - Manage Firestore indexes.
+
+12. firebase storage:rules
+    - Manage Firebase Storage security rules.
+
+13. firebase apps:list
+    - List all apps (Android, iOS, web) registered in your Firebase project.
+
+14. firebase open
+    - Open the Firebase Console for the active project in your browser.
+
+15. flutterfire configure
+    - (Flutter projects) Configure and generate firebase_options.dart for your app.
+
+# Note
+- For more commands, run: firebase --help
+- For Flutter-specific setup, use: flutterfire --help
+
