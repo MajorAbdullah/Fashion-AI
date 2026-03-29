@@ -9,8 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  crazy:
-    path: C:\Users\saabd\StudioProjects\crazy
+  # crazy: # TODO: publish to pub.dev or use a git dependency
+  #   path: C:\Users\saabd\StudioProjects\crazy (removed: hardcoded local path)
   csv: ^6.0.0
   animated_bottom_navigation_bar: ^1.4.0
   convex_bottom_bar: ^3.2.0
