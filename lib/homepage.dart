@@ -265,7 +265,7 @@ class _HomeContentState extends State<HomeContent> {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => ChoiceScreen()),
+                    MaterialPageRoute(builder: (context) => WardrobePage()),
                   );
                 },
                 child: Container(
