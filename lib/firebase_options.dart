@@ -53,11 +53,11 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBdYGaZVTaRLng4QithmUMeQCOzJdlsdOA',
-    appId: '1:904801949970:android:2ad670a2dd61d1183abbcb',
-    messagingSenderId: '904801949970',
-    projectId: 'fyp-fashion',
-    databaseURL: 'https://fyp-fashion-default-rtdb.firebaseio.com',
-    storageBucket: 'fyp-fashion.firebasestorage.app',
+    apiKey: 'AIzaSyDzWFIwz_snPbv9Yrc7TSVFP1Z7faE1wxM',
+    appId: '1:599869994036:android:4ee6b29e7813ea4ee74661',
+    messagingSenderId: '599869994036',
+    projectId: 'iems-c0c29',
+    storageBucket: 'iems-c0c29.firebasestorage.app',
   );
+
 }

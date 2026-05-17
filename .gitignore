@@ -154,3 +154,4 @@ DEV_NOTES.md
 .metadata
 pubspec.lock.backup
 analysis_options.yaml.backup
+.backup-firebase-fyp-fashion/

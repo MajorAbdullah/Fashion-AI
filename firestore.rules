@@ -1,0 +1,35 @@
+rules_version = '2';
+
+// Fashion AI — Firestore security rules.
+// These rules grant authenticated users read/write access to their own
+// document under `users/{uid}` and deny everything else by default.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper: caller is signed in.
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    // Helper: caller is acting on their own user document.
+    function isOwner(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    // Per-user profile + survey data. Written by lib/wardrobe.dart and
+    // lib/profilepage.dart; read by lib/profilepage.dart.
+    match /users/{uid} {
+      allow read, write: if isOwner(uid);
+
+      // Any nested subcollections inherit the same ownership check.
+      match /{document=**} {
+        allow read, write: if isOwner(uid);
+      }
+    }
+
+    // Default deny — every other path requires an explicit rule.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
